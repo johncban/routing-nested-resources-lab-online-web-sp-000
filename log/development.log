@@ -747,3 +747,11 @@ Processing by SongsController#index as
 Completed 200 OK in 29ms (Views: 7.9ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/songs/new" for 96.240.7.191 at 2020-09-03 12:59:44 +0000
+Cannot render console from 96.240.7.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SongsController#new as HTML
+  Rendering songs/new.html.erb within layouts/application
+  Rendered songs/new.html.erb within layouts/application (22.9ms)
+Completed 200 OK in 27ms (Views: 26.3ms | ActiveRecord: 0.0ms)
+
+
